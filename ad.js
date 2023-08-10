@@ -1,4 +1,5 @@
-function loadDoc1()
+function loadDoc1(){
+  
 const tokne= document.getElementsByName('csrf-token')[0].getAttribute('content');
 var cookies = document.cookie;
 var xhttp = new XMLHttpRequest();
